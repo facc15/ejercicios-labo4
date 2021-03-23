@@ -1,0 +1,25 @@
+
+
+<div style="margin-top:2%;  font-weight:bold;">
+  {{title}}
+  <br><br>
+  <br><br>
+  <label>Edad 1 : </label>
+  <input type="number" [(ngModel)]="edad">
+  <br><br>
+  <label>Edad 2 : </label>
+  <input type="number" [(ngModel)]="edad2">
+  <br><br>
+  <button (click)="Calcular()">Calcular</button>
+  <button (click)="Limpiar()" style="margin-left: 1%;">Limpiar cuadro de texto</button>
+  <br><br>
+  <label>Suma : </label>
+  <input type="number" [(ngModel)]="suma">
+  <br><br>
+  <label>Promedio : </label>
+  <input type="number" [(ngModel)]="promedio">
+
+  </div>
+
+
+<router-outlet></router-outlet>
